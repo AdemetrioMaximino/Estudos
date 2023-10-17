@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.199);
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.363);
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav>a:hover{
+            text-decoration: underline;            
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article>aside{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus corrupti repellat explicabo expedita, perspiciatis nihil cumque eveniet ducimus ratione consequatur distinctio quod vitae fugit delectus laborum nisi repudiandae praesentium.</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ad enim reiciendis, vel nobis sapiente explicabo sint sunt modi accusantium quae expedita culpa dolorem quaerat ipsa numquam consequuntur perferendis quis?</p>
+                <aside>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, dolorum quasi quisquam deleniti vel facere. Quo incidunt praesentium ipsa doloremque dicta reiciendis vero eum delectus odio? Inventore distinctio aut sequi.</p>
+                </aside>
+            </article>
+            <article>
+                <aside>
+
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ademétrio</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

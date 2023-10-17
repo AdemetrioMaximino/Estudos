@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.textonocentro{
+    text-align: center;
+}
+.textonocentro a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+}
+  
+.textonocentro a:link:active, a:visited:active {
+    color: gray;
+}
