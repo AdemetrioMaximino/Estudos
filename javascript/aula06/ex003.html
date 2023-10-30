@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro JS</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            color: white;
+            font: normal 1em Arial;
+        }
+        h1 {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiro JavaScript</h1>
+    <p>Já me livrei da maldição. Amém!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número.'))
+        //pronpt vira string, então precisa converter. No caso desse, não foi declarado parse (inteiro ou real), já no proximo sim.
+        var n2 = Number.parsei(window.prompt('Digite outro número.'))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s)
+    </script> 
+</body>
+</html>
